@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:text="Enter recipe here"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#9E9E9E"
+        android:singleLine="true"
+        android:background="#000"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="50dp"
+        android:clipToPadding="true"
+        android:clipChildren="true"
+        android:paddingTop="50dp" />
+
+
+</LinearLayout>
